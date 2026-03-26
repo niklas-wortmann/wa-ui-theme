@@ -1,10 +1,13 @@
-<idea-plugin>
+<idea-plugin url="https://github.com/niklas-wortmann/wa-ui-theme">
     <id>com.github.wa.theme</id>
     <name>WA Inspired UI Theme</name>
-    <vendor email="6104311+niklas-wortmann@users.noreply.github.com" url="https://github.com/niklas-wortmann/WA_ui_theme">Jan-Niklas Wortmann</vendor>
+    <vendor email="6104311+niklas-wortmann@users.noreply.github.com" url="https://github.com/niklas-wortmann/wa-ui-theme">Jan-Niklas Wortmann</vendor>
     <description><![CDATA[
-        A Wes Anderson-inspired pastel UI theme collection for JetBrains IDEs.
-        Includes balanced and vibrant variants for both light and dark Islands UI.
+        <p>A Wes Anderson-inspired pastel UI theme collection for JetBrains IDEs.</p>
+        <p>Includes balanced and vibrant variants for both light and dark Islands UI.</p>
+        <p><strong>Theme previews</strong></p>
+        <p><img src="https://raw.githubusercontent.com/niklas-wortmann/wa-ui-theme/main/docs/marketplace/media/wa-theme-screenshot-1.png" alt="WA Dark (Balanced) preview" /></p>
+        <p><img src="https://raw.githubusercontent.com/niklas-wortmann/wa-ui-theme/main/docs/marketplace/media/wa-theme-screenshot-2.png" alt="WA Light (Vibrant) preview" /></p>
     ]]></description>
     <change-notes><![CDATA[
         <ul>

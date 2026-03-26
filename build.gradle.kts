@@ -28,6 +28,10 @@ dependencies {
 }
 
 intellijPlatform {
+    // Theme plugin has no custom Settings pages; disable this headless IDE task to avoid
+    // "Only one instance of IDEA can be run at a time" and speed up builds.
+    buildSearchableOptions = false
+
     signing {
         certificateChain.set(providers.environmentVariable("CERTIFICATE_CHAIN"))
         privateKey.set(providers.environmentVariable("PRIVATE_KEY"))

@@ -1,0 +1,154 @@
+{
+  "name": "WA Light (Vibrant)",
+  "dark": false,
+  "parentTheme": "Islands Light",
+  "author": "Jan-Niklas Wortmann",
+  "editorScheme": "Default",
+
+  "colors": {
+    "wa.paper": "#FFF0D6",
+    "wa.cream": "#FFE0C4",
+    "wa.blush": "#FFC1C7",
+    "wa.pink": "#FF9DB0",
+    "wa.ink": "#2A1F1C",
+    "wa.inkSoft": "#5B3E37",
+
+    "wa.brass": "#E2B84F",
+    "wa.mustard": "#F0C75A",
+    "wa.terracotta": "#E07A4F",
+    "wa.teal": "#00A7A0",
+    "wa.mint": "#B8F1E6",
+    "wa.sky": "#74BFE7",
+    "wa.lilac": "#B79BE6",
+
+    "wa.border": "#E7B59C",
+    "wa.borderSoft": "#F2CDB7",
+
+    "wa.selectBg": "#00A7A0",
+    "wa.selectFg": "#FFF0D6",
+
+    "wa.danger": "#D84F46",
+    "wa.warn": "#E2B84F",
+    "wa.ok": "#2F9A66",
+
+    "wa.link": "#00A7A0",
+    "wa.caret": "#2A1F1C"
+  },
+
+  "ui": {
+    "*": {
+      "background": "wa.paper",
+      "foreground": "wa.ink",
+      "selectionBackground": "wa.selectBg",
+      "selectionForeground": "wa.selectFg"
+    },
+
+    "Islands": 1,
+    "Island.borderColor": "wa.paper",
+
+    "MainWindow.background": "wa.paper",
+    "ToolWindow.background": "wa.paper",
+
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "MainToolbar.borderColor": "#00000000",
+
+    "Panel.background": "wa.paper",
+    "Viewport.background": "wa.paper",
+
+    "Separator.foreground": "wa.border",
+    "Component.borderColor": "wa.border",
+    "Borders.color": "wa.borderSoft",
+
+    "Label.foreground": "wa.ink",
+    "Label.infoForeground": "wa.inkSoft",
+
+    "ToolTip.background": "wa.cream",
+    "ToolTip.foreground": "wa.ink",
+
+    "Popup.Header.activeBackground": "wa.pink",
+    "Popup.Header.inactiveBackground": "wa.blush",
+
+    "SearchEverywhere.SearchField.background": "wa.cream",
+    "SearchEverywhere.SearchField.foreground": "wa.ink",
+    "SearchEverywhere.List.separatorColor": "wa.borderSoft",
+
+    "TextField.background": "wa.cream",
+    "TextField.foreground": "wa.ink",
+    "TextField.caretForeground": "wa.caret",
+    "TextField.selectionBackground": "wa.mint",
+    "TextField.selectionForeground": "wa.ink",
+
+    "TextArea.background": "wa.cream",
+    "TextArea.foreground": "wa.ink",
+    "TextArea.caretForeground": "wa.caret",
+    "TextArea.selectionBackground": "wa.mint",
+    "TextArea.selectionForeground": "wa.ink",
+
+    "ComboBox.background": "wa.cream",
+    "ComboBox.foreground": "wa.ink",
+
+    "Button.background": "wa.blush",
+    "Button.foreground": "wa.ink",
+    "Button.focusedBorderColor": "wa.teal",
+
+    "Button.default.startBackground": "wa.brass",
+    "Button.default.endBackground": "wa.mustard",
+    "Button.default.foreground": "wa.ink",
+
+    "ToggleButton.background": "wa.blush",
+    "ToggleButton.foreground": "wa.ink",
+    "ToggleButton.onBackground": "wa.teal",
+    "ToggleButton.onForeground": "wa.paper",
+
+    "ProgressBar.trackColor": "wa.cream",
+    "ProgressBar.progressColor": "wa.teal",
+
+    "ScrollBar.thumb": "wa.pink",
+    "ScrollBar.track": "wa.paper",
+
+    "List.background": "wa.paper",
+    "List.foreground": "wa.ink",
+    "List.selectionBackground": "wa.teal",
+    "List.selectionForeground": "wa.paper",
+
+    "Tree.background": "wa.paper",
+    "Tree.foreground": "wa.ink",
+    "Tree.selectionBackground": "wa.teal",
+    "Tree.selectionForeground": "wa.paper",
+
+    "Table.background": "wa.paper",
+    "Table.foreground": "wa.ink",
+    "Table.selectionBackground": "wa.teal",
+    "Table.selectionForeground": "wa.paper",
+    "Table.gridColor": "wa.borderSoft",
+
+    "EditorTabs.background": "wa.blush",
+    "EditorTabs.inactiveBackground": "wa.cream",
+    "EditorTabs.underlinedTabBackground": "wa.paper",
+    "EditorTabs.borderColor": "wa.borderSoft",
+    "EditorTabs.foreground": "wa.inkSoft",
+    "EditorTabs.selectedForeground": "wa.ink",
+    "EditorTabs.underlineColor": "wa.brass",
+
+    "ToolWindow.Header.background": "wa.pink",
+    "ToolWindow.Header.inactiveBackground": "wa.cream",
+    "ToolWindow.Header.activeForeground": "wa.ink",
+    "ToolWindow.Header.foreground": "wa.inkSoft",
+
+    "StatusBar.background": "wa.blush",
+    "StatusBar.foreground": "wa.inkSoft"
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#00A7A0",
+      "Actions.Yellow": "#E2B84F",
+      "Actions.Red": "#D84F46",
+      "Objects.Blue": "#74BFE7",
+      "Objects.Yellow": "#F0C75A",
+      "Objects.Red": "#D84F46",
+      "Objects.Green": "#2F9A66"
+    }
+  }
+}

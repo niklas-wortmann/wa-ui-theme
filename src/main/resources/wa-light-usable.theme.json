@@ -1,0 +1,178 @@
+{
+  "name": "WA Light (Balanced)",
+  "dark": false,
+  "parentTheme": "Islands Light",
+  "author": "Jan-Niklas Wortmann",
+  "editorScheme": "Default",
+
+  "colors": {
+    "wa.paper": "#FFF3E3",
+    "wa.cream": "#F7E3CF",
+    "wa.blush": "#F1C7C3",
+    "wa.rose": "#E7A6A5",
+    "wa.cocoa": "#3A2E2A",
+    "wa.ink": "#2C2320",
+    "wa.inkSoft": "#5C4A43",
+
+    "wa.brass": "#C8A24A",
+    "wa.ochre": "#D7B35B",
+    "wa.terracotta": "#C76F52",
+    "wa.mint": "#BFE3DE",
+    "wa.teal": "#2E8C86",
+    "wa.sky": "#8FC7D8",
+
+    "wa.border": "#D7BFAA",
+    "wa.borderSoft": "#E6D1BF",
+
+    "wa.selectBg": "#BFE3DE",
+    "wa.selectFg": "#2C2320",
+
+    "wa.danger": "#B95446",
+    "wa.warn": "#C8A24A",
+    "wa.ok": "#3D8E64",
+
+    "wa.link": "#2E8C86",
+    "wa.caret": "#2C2320"
+  },
+
+  "ui": {
+    "*": {
+      "background": "wa.paper",
+      "foreground": "wa.ink",
+      "selectionBackground": "wa.selectBg",
+      "selectionForeground": "wa.selectFg"
+    },
+
+    "Islands": 1,
+    "Island.borderColor": "wa.paper",
+
+    "MainWindow.background": "wa.paper",
+    "ToolWindow.background": "wa.paper",
+
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "MainToolbar.borderColor": "#00000000",
+
+    "Panel.background": "wa.paper",
+    "Panel.foreground": "wa.ink",
+
+    "Viewport.background": "wa.paper",
+
+    "Separator.foreground": "wa.border",
+    "Component.borderColor": "wa.border",
+    "Borders.color": "wa.borderSoft",
+
+    "Label.foreground": "wa.ink",
+    "Label.infoForeground": "wa.inkSoft",
+    "Label.disabledForeground": "wa.inkSoft",
+
+    "Link.activeForeground": "wa.link",
+    "Link.hoverForeground": "wa.terracotta",
+    "Link.visitedForeground": "wa.sky",
+
+    "ToolTip.background": "wa.cream",
+    "ToolTip.foreground": "wa.ink",
+
+    "Popup.Header.activeBackground": "wa.blush",
+    "Popup.Header.inactiveBackground": "wa.cream",
+
+    "SearchEverywhere.SearchField.background": "wa.cream",
+    "SearchEverywhere.SearchField.foreground": "wa.ink",
+    "SearchEverywhere.List.separatorColor": "wa.borderSoft",
+
+    "TextField.background": "wa.cream",
+    "TextField.foreground": "wa.ink",
+    "TextField.caretForeground": "wa.caret",
+    "TextField.selectionBackground": "wa.selectBg",
+    "TextField.selectionForeground": "wa.selectFg",
+    "TextField.inactiveBackground": "wa.paper",
+
+    "TextArea.background": "wa.cream",
+    "TextArea.foreground": "wa.ink",
+    "TextArea.caretForeground": "wa.caret",
+    "TextArea.selectionBackground": "wa.selectBg",
+    "TextArea.selectionForeground": "wa.selectFg",
+
+    "ComboBox.background": "wa.cream",
+    "ComboBox.foreground": "wa.ink",
+    "ComboBox.selectionBackground": "wa.selectBg",
+    "ComboBox.selectionForeground": "wa.selectFg",
+
+    "Button.background": "wa.blush",
+    "Button.foreground": "wa.ink",
+    "Button.disabledText": "wa.inkSoft",
+    "Button.focusedBorderColor": "wa.teal",
+
+    "Button.default.startBackground": "wa.brass",
+    "Button.default.endBackground": "wa.ochre",
+    "Button.default.foreground": "wa.ink",
+
+    "ToggleButton.background": "wa.blush",
+    "ToggleButton.foreground": "wa.ink",
+    "ToggleButton.onBackground": "wa.teal",
+    "ToggleButton.onForeground": "wa.paper",
+
+    "ProgressBar.background": "wa.cream",
+    "ProgressBar.trackColor": "wa.cream",
+    "ProgressBar.progressColor": "wa.teal",
+    "ProgressBar.foreground": "wa.teal",
+
+    "ScrollBar.thumb": "wa.rose",
+    "ScrollBar.thumbDarkShadow": "wa.border",
+    "ScrollBar.thumbHighlight": "wa.borderSoft",
+    "ScrollBar.track": "wa.paper",
+
+    "List.background": "wa.paper",
+    "List.foreground": "wa.ink",
+    "List.selectionBackground": "wa.selectBg",
+    "List.selectionForeground": "wa.selectFg",
+
+    "Tree.background": "wa.paper",
+    "Tree.foreground": "wa.ink",
+    "Tree.selectionBackground": "wa.selectBg",
+    "Tree.selectionForeground": "wa.selectFg",
+    "Tree.hash": "wa.borderSoft",
+
+    "Table.background": "wa.paper",
+    "Table.foreground": "wa.ink",
+    "Table.selectionBackground": "wa.selectBg",
+    "Table.selectionForeground": "wa.selectFg",
+    "Table.gridColor": "wa.borderSoft",
+
+    "EditorTabs.background": "wa.blush",
+    "EditorTabs.inactiveBackground": "wa.cream",
+    "EditorTabs.underlinedTabBackground": "wa.paper",
+    "EditorTabs.borderColor": "wa.border",
+    "EditorTabs.foreground": "wa.inkSoft",
+    "EditorTabs.selectedForeground": "wa.ink",
+    "EditorTabs.underlineColor": "wa.brass",
+
+    "ToolWindow.Header.background": "wa.blush",
+    "ToolWindow.Header.inactiveBackground": "wa.cream",
+    "ToolWindow.Header.foreground": "wa.inkSoft",
+    "ToolWindow.Header.activeForeground": "wa.ink",
+
+    "StatusBar.background": "wa.blush",
+    "StatusBar.foreground": "wa.inkSoft",
+
+    "Notification.background": "wa.cream",
+    "Notification.foreground": "wa.ink",
+    "Notification.borderColor": "wa.border",
+    "Notification.errorBackground": "wa.cream",
+    "Notification.errorForeground": "wa.ink",
+    "Notification.errorBorderColor": "wa.danger",
+    "Notification.warningBorderColor": "wa.warn"
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#2E8C86",
+      "Actions.Yellow": "#C8A24A",
+      "Actions.Red": "#B95446",
+      "Objects.Blue": "#2E8C86",
+      "Objects.Yellow": "#C8A24A",
+      "Objects.Red": "#B95446",
+      "Objects.Green": "#3D8E64"
+    }
+  }
+}

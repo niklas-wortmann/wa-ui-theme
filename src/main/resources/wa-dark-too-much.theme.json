@@ -1,0 +1,155 @@
+{
+  "name": "WA Dark (Vibrant)",
+  "dark": true,
+  "parentTheme": "Islands Dark",
+  "author": "Jan-Niklas Wortmann",
+  "editorScheme": "Darcula",
+
+  "colors": {
+    "wa.bg0": "#1A1417",
+    "wa.bg1": "#24171D",
+    "wa.bg2": "#2E1F29",
+    "wa.bg3": "#3A2A35",
+
+    "wa.fg0": "#FFF1DE",
+    "wa.fg1": "#F1D3C7",
+    "wa.fg2": "#D0B3AA",
+
+    "wa.border": "#6E4D55",
+    "wa.borderSoft": "#4B343B",
+
+    "wa.teal": "#2FA39A",
+    "wa.mint": "#B9E9DF",
+    "wa.brass": "#D7B35B",
+    "wa.ochre": "#E4C06B",
+    "wa.terracotta": "#D47A5E",
+    "wa.rose": "#D28AA2",
+    "wa.sky": "#87C7DA",
+
+    "wa.selectBg": "#2FA39A",
+    "wa.selectFg": "#1A1417",
+
+    "wa.danger": "#D06057",
+    "wa.warn": "#D7B35B",
+    "wa.ok": "#62B07A",
+
+    "wa.link": "#87C7DA",
+    "wa.caret": "#FFF1DE"
+  },
+
+  "ui": {
+    "*": {
+      "background": "wa.bg1",
+      "foreground": "wa.fg1",
+      "selectionBackground": "wa.selectBg",
+      "selectionForeground": "wa.selectFg"
+    },
+
+    "Islands": 1,
+    "Island.borderColor": "wa.bg1",
+
+    "MainWindow.background": "wa.bg0",
+    "ToolWindow.background": "wa.bg1",
+
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "MainToolbar.borderColor": "#00000000",
+
+    "Panel.background": "wa.bg1",
+    "Viewport.background": "wa.bg1",
+
+    "Separator.foreground": "wa.borderSoft",
+    "Component.borderColor": "wa.border",
+    "Borders.color": "wa.borderSoft",
+
+    "Label.foreground": "wa.fg1",
+    "Label.infoForeground": "wa.fg2",
+
+    "ToolTip.background": "wa.bg2",
+    "ToolTip.foreground": "wa.fg0",
+
+    "Popup.Header.activeBackground": "wa.rose",
+    "Popup.Header.inactiveBackground": "wa.bg2",
+
+    "SearchEverywhere.SearchField.background": "wa.bg2",
+    "SearchEverywhere.SearchField.foreground": "wa.fg0",
+
+    "TextField.background": "wa.bg2",
+    "TextField.foreground": "wa.fg0",
+    "TextField.caretForeground": "wa.caret",
+    "TextField.selectionBackground": "wa.mint",
+    "TextField.selectionForeground": "wa.bg0",
+
+    "TextArea.background": "wa.bg2",
+    "TextArea.foreground": "wa.fg0",
+    "TextArea.caretForeground": "wa.caret",
+    "TextArea.selectionBackground": "wa.mint",
+    "TextArea.selectionForeground": "wa.bg0",
+
+    "ComboBox.background": "wa.bg2",
+    "ComboBox.foreground": "wa.fg0",
+
+    "Button.background": "wa.rose",
+    "Button.foreground": "wa.bg0",
+    "Button.focusedBorderColor": "wa.teal",
+    "Button.default.startBackground": "wa.brass",
+    "Button.default.endBackground": "wa.ochre",
+    "Button.default.foreground": "wa.bg0",
+
+    "ProgressBar.trackColor": "wa.bg2",
+    "ProgressBar.progressColor": "wa.teal",
+
+    "ScrollBar.thumb": "wa.rose",
+    "ScrollBar.track": "wa.bg1",
+
+    "List.background": "wa.bg1",
+    "List.foreground": "wa.fg1",
+    "List.selectionBackground": "wa.teal",
+    "List.selectionForeground": "wa.bg0",
+
+    "Tree.background": "wa.bg1",
+    "Tree.foreground": "wa.fg1",
+    "Tree.selectionBackground": "wa.teal",
+    "Tree.selectionForeground": "wa.bg0",
+
+    "Table.background": "wa.bg1",
+    "Table.foreground": "wa.fg1",
+    "Table.selectionBackground": "wa.teal",
+    "Table.selectionForeground": "wa.bg0",
+    "Table.gridColor": "wa.borderSoft",
+
+    "EditorTabs.background": "wa.bg0",
+    "EditorTabs.inactiveBackground": "wa.bg2",
+    "EditorTabs.underlinedTabBackground": "wa.bg1",
+    "EditorTabs.borderColor": "wa.borderSoft",
+    "EditorTabs.foreground": "wa.fg2",
+    "EditorTabs.selectedForeground": "wa.fg0",
+    "EditorTabs.underlineColor": "wa.brass",
+
+    "ToolWindow.Header.background": "wa.rose",
+    "ToolWindow.Header.inactiveBackground": "wa.bg2",
+    "ToolWindow.Header.activeForeground": "wa.bg0",
+    "ToolWindow.Header.foreground": "wa.fg0",
+
+    "StatusBar.background": "wa.bg0",
+    "StatusBar.foreground": "wa.fg2",
+
+    "Notification.background": "wa.bg2",
+    "Notification.foreground": "wa.fg0",
+    "Notification.borderColor": "wa.border",
+    "Notification.errorBorderColor": "wa.danger",
+    "Notification.warningBorderColor": "wa.warn"
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#87C7DA",
+      "Actions.Yellow": "#D7B35B",
+      "Actions.Red": "#D06057",
+      "Objects.Blue": "#2FA39A",
+      "Objects.Yellow": "#E4C06B",
+      "Objects.Red": "#D06057",
+      "Objects.Green": "#62B07A"
+    }
+  }
+}

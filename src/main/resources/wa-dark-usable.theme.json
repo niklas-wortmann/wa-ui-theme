@@ -1,0 +1,180 @@
+{
+  "name": "WA Dark (Balanced)",
+  "dark": true,
+  "parentTheme": "Islands Dark",
+  "author": "Jan-Niklas Wortmann",
+  "editorScheme": "Darcula",
+
+  "colors": {
+    "wa.bg0": "#1E1B18",
+    "wa.bg1": "#26211E",
+    "wa.bg2": "#2F2A26",
+    "wa.bg3": "#3A332E",
+
+    "wa.fg0": "#F2E7D8",
+    "wa.fg1": "#D8CBB8",
+    "wa.fg2": "#B9AC9A",
+
+    "wa.border": "#4C4036",
+    "wa.borderSoft": "#3A332E",
+
+    "wa.accent": "#2E8C86",
+    "wa.accent2": "#D27D4F",
+    "wa.highlight": "#D9B44A",
+
+    "wa.selectBg": "#2F5D5A",
+    "wa.selectFg": "#F6F0E7",
+
+    "wa.danger": "#C65A4A",
+    "wa.warn": "#D9B44A",
+    "wa.ok": "#6FAE7E",
+
+    "wa.link": "#68B7B0",
+    "wa.caret": "#F2E7D8"
+  },
+
+  "ui": {
+    "*": {
+      "background": "wa.bg1",
+      "foreground": "wa.fg1",
+      "selectionBackground": "wa.selectBg",
+      "selectionForeground": "wa.selectFg"
+    },
+
+    "Islands": 1,
+    "Island.borderColor": "wa.bg1",
+
+    "MainWindow.background": "wa.bg0",
+    "ToolWindow.background": "wa.bg1",
+
+    "StatusBar.borderColor": "#00000000",
+    "ToolWindow.Stripe.borderColor": "#00000000",
+    "MainToolbar.borderColor": "#00000000",
+
+    "Panel.background": "wa.bg1",
+    "Panel.foreground": "wa.fg1",
+
+    "Viewport.background": "wa.bg1",
+
+    "Separator.foreground": "wa.border",
+    "Component.borderColor": "wa.border",
+    "Borders.color": "wa.border",
+
+    "Label.foreground": "wa.fg1",
+
+    "Link.activeForeground": "wa.link",
+    "Link.hoverForeground": "wa.accent",
+    "Link.visitedForeground": "wa.accent2",
+
+    "ToolTip.background": "wa.bg2",
+    "ToolTip.foreground": "wa.fg0",
+
+    "Popup.Header.activeBackground": "wa.bg0",
+    "Popup.Header.inactiveBackground": "wa.bg1",
+
+    "SearchEverywhere.SearchField.background": "wa.bg2",
+    "SearchEverywhere.SearchField.foreground": "wa.fg0",
+    "SearchEverywhere.List.separatorColor": "wa.borderSoft",
+
+    "TextField.background": "wa.bg2",
+    "TextField.foreground": "wa.fg0",
+    "TextField.caretForeground": "wa.caret",
+    "TextField.selectionBackground": "wa.selectBg",
+    "TextField.selectionForeground": "wa.selectFg",
+    "TextField.inactiveBackground": "wa.bg1",
+
+    "TextArea.background": "wa.bg2",
+    "TextArea.foreground": "wa.fg0",
+    "TextArea.caretForeground": "wa.caret",
+    "TextArea.selectionBackground": "wa.selectBg",
+    "TextArea.selectionForeground": "wa.selectFg",
+
+    "PasswordField.background": "wa.bg2",
+    "PasswordField.foreground": "wa.fg0",
+    "PasswordField.caretForeground": "wa.caret",
+
+    "ComboBox.background": "wa.bg2",
+    "ComboBox.foreground": "wa.fg0",
+    "ComboBox.selectionBackground": "wa.selectBg",
+    "ComboBox.selectionForeground": "wa.selectFg",
+
+    "Button.background": "wa.bg2",
+    "Button.foreground": "wa.fg0",
+    "Button.disabledText": "wa.fg2",
+    "Button.focusedBorderColor": "wa.accent",
+    "Button.default.startBackground": "wa.accent",
+    "Button.default.endBackground": "wa.accent",
+    "Button.default.foreground": "wa.selectFg",
+
+    "ToggleButton.background": "wa.bg2",
+    "ToggleButton.foreground": "wa.fg0",
+    "ToggleButton.onBackground": "wa.accent",
+    "ToggleButton.onForeground": "wa.selectFg",
+
+    "ProgressBar.background": "wa.bg2",
+    "ProgressBar.trackColor": "wa.bg2",
+    "ProgressBar.progressColor": "wa.accent",
+    "ProgressBar.foreground": "wa.accent",
+
+    "ScrollBar.thumb": "wa.bg3",
+    "ScrollBar.thumbDarkShadow": "wa.borderSoft",
+    "ScrollBar.thumbHighlight": "wa.border",
+    "ScrollBar.track": "wa.bg1",
+
+    "List.background": "wa.bg1",
+    "List.foreground": "wa.fg1",
+    "List.selectionBackground": "wa.selectBg",
+    "List.selectionForeground": "wa.selectFg",
+
+    "Tree.background": "wa.bg1",
+    "Tree.foreground": "wa.fg1",
+    "Tree.selectionBackground": "wa.selectBg",
+    "Tree.selectionForeground": "wa.selectFg",
+    "Tree.hash": "wa.borderSoft",
+
+    "Table.background": "wa.bg1",
+    "Table.foreground": "wa.fg1",
+    "Table.selectionBackground": "wa.selectBg",
+    "Table.selectionForeground": "wa.selectFg",
+    "Table.gridColor": "wa.borderSoft",
+
+    "EditorTabs.background": "wa.bg0",
+    "EditorTabs.inactiveBackground": "wa.bg1",
+    "EditorTabs.underlinedTabBackground": "wa.bg2",
+    "EditorTabs.borderColor": "wa.border",
+    "EditorTabs.foreground": "wa.fg2",
+    "EditorTabs.selectedForeground": "wa.fg0",
+    "EditorTabs.underlineColor": "wa.highlight",
+
+    "ToolWindow.Header.background": "wa.bg0",
+    "ToolWindow.Header.inactiveBackground": "wa.bg1",
+    "ToolWindow.Header.foreground": "wa.fg2",
+    "ToolWindow.Header.activeForeground": "wa.fg0",
+
+    "StatusBar.background": "wa.bg0",
+    "StatusBar.foreground": "wa.fg2",
+
+    "Notification.background": "wa.bg2",
+    "Notification.foreground": "wa.fg0",
+    "Notification.borderColor": "wa.border",
+    "Notification.errorBackground": "wa.bg2",
+    "Notification.errorForeground": "wa.fg0",
+    "Notification.errorBorderColor": "wa.danger",
+    "Notification.warningBorderColor": "wa.warn",
+
+    "VersionControl.Log.Commit.selectedBackground": "wa.selectBg",
+    "VersionControl.Log.Commit.selectedForeground": "wa.selectFg"
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Blue": "#68B7B0",
+      "Actions.Yellow": "#D9B44A",
+      "Actions.Red": "#C65A4A",
+      "Objects.Blue": "#68B7B0",
+      "Objects.Yellow": "#D9B44A",
+      "Objects.Red": "#C65A4A",
+      "Objects.Green": "#6FAE7E"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+<idea-plugin>
+    <id>com.github.wa.theme</id>
+    <name>WA Inspired UI Theme</name>
+    <vendor email="6104311+niklas-wortmann@users.noreply.github.com" url="https://github.com/niklas-wortmann/WA_ui_theme">Jan-Niklas Wortmann</vendor>
+    <description><![CDATA[
+        A Wes Anderson-inspired pastel UI theme collection for JetBrains IDEs.
+        Includes balanced and vibrant variants for both light and dark Islands UI.
+    ]]></description>
+    <change-notes><![CDATA[
+        <ul>
+            <li>Added publishing metadata, release documentation, and plugin icon.</li>
+            <li>Aligned Java compatibility with IntelliJ 2025.3 requirements.</li>
+            <li>Fixed plugin compatibility descriptor generation for Marketplace validation.</li>
+            <li>Updated theme author attribution to Jan-Niklas Wortmann.</li>
+            <li>Renamed variants for clarity: Balanced and Vibrant.</li>
+        </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="wa.ui" path="/wa-dark-usable.theme.json" targetUi="islands"/>
+        <themeProvider id="wa.ui.light" path="/wa-light-usable.theme.json" targetUi="islands"/>
+        <themeProvider id="wa.ui.toomuch.light" path="/wa-light-too-much.theme.json" targetUi="islands"/>
+        <themeProvider id="wa.ui.toomuch.dark" path="/wa-dark-too-much.theme.json" targetUi="islands"/>
+    </extensions>
+</idea-plugin>

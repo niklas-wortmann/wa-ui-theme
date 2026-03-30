@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.0.4] - 2026-03-30
+
+- Version bump for new release.
+
 ## [1.0.3] - 2026-03-26
 
 - Fixed invalid `until-build` generation that blocked plugin structure validation.

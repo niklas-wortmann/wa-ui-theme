@@ -67,7 +67,7 @@
     "ToolTip.foreground": "wa.ink",
 
     "Popup.Header.activeBackground": "wa.pink",
-    "Popup.Header.inactiveBackground": "wa.blush",
+    "Popup.Header.inactiveBackground": "wa.paper",
 
     "SearchEverywhere.SearchField.background": "wa.cream",
     "SearchEverywhere.SearchField.foreground": "wa.ink",
@@ -88,7 +88,7 @@
     "ComboBox.background": "wa.cream",
     "ComboBox.foreground": "wa.ink",
 
-    "Button.background": "wa.blush",
+    "Button.background": "wa.paper",
     "Button.foreground": "wa.ink",
     "Button.focusedBorderColor": "wa.teal",
 
@@ -123,7 +123,7 @@
     "Table.selectionForeground": "wa.paper",
     "Table.gridColor": "wa.borderSoft",
 
-    "EditorTabs.background": "wa.blush",
+    "EditorTabs.background": "wa.cream",
     "EditorTabs.inactiveBackground": "wa.cream",
     "EditorTabs.underlinedTabBackground": "wa.paper",
     "EditorTabs.borderColor": "wa.borderSoft",
@@ -136,7 +136,7 @@
     "ToolWindow.Header.activeForeground": "wa.ink",
     "ToolWindow.Header.foreground": "wa.inkSoft",
 
-    "StatusBar.background": "wa.blush",
+    "StatusBar.background": "wa.cream",
     "StatusBar.foreground": "wa.inkSoft"
   },
 

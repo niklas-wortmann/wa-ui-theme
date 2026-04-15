@@ -48,8 +48,14 @@
 
     "MainWindow.background": "wa.paper",
     "ToolWindow.background": "wa.paper",
+    "SidePanel.background": "wa.paper",
+    "ProjectView.background": "wa.paper",
 
+    "StatusBar.background": "wa.cream",
+    "StatusBar.noProjectBackground": "wa.cream",
+    "StatusBar.foreground": "wa.inkSoft",
     "StatusBar.borderColor": "#00000000",
+
     "ToolWindow.Stripe.borderColor": "#00000000",
     "MainToolbar.borderColor": "#00000000",
 
@@ -66,8 +72,21 @@
     "ToolTip.background": "wa.cream",
     "ToolTip.foreground": "wa.ink",
 
-    "Popup.Header.activeBackground": "wa.pink",
-    "Popup.Header.inactiveBackground": "wa.blush",
+    "Popup.Header.activeBackground": "wa.cream",
+    "Popup.Header.inactiveBackground": "wa.paper",
+
+    "Notification.background": "wa.paper",
+    "Notification.foreground": "wa.ink",
+    "Notification.borderColor": "wa.border",
+    "Notification.errorBackground": "wa.paper",
+    "Notification.errorForeground": "wa.danger",
+    "Notification.errorBorderColor": "wa.danger",
+    "Notification.MoreButton.background": "wa.cream",
+    "Notification.MoreButton.foreground": "wa.ink",
+    "Notification.ToolWindow.background": "wa.paper",
+    "Notification.Event.selectionForeground": "#000000",
+    "Notification.Event.foreground": "wa.ink",
+    "Notification.Event.fontColor": "wa.ink",
 
     "SearchEverywhere.SearchField.background": "wa.cream",
     "SearchEverywhere.SearchField.foreground": "wa.ink",
@@ -88,7 +107,7 @@
     "ComboBox.background": "wa.cream",
     "ComboBox.foreground": "wa.ink",
 
-    "Button.background": "wa.blush",
+    "Button.background": "wa.paper",
     "Button.foreground": "wa.ink",
     "Button.focusedBorderColor": "wa.teal",
 
@@ -109,12 +128,12 @@
 
     "List.background": "wa.paper",
     "List.foreground": "wa.ink",
-    "List.selectionBackground": "wa.teal",
+    "List.selectionBackground": "wa.sky",
     "List.selectionForeground": "wa.paper",
 
     "Tree.background": "wa.paper",
     "Tree.foreground": "wa.ink",
-    "Tree.selectionBackground": "wa.teal",
+    "Tree.selectionBackground": "wa.sky",
     "Tree.selectionForeground": "wa.paper",
 
     "Table.background": "wa.paper",
@@ -123,7 +142,8 @@
     "Table.selectionForeground": "wa.paper",
     "Table.gridColor": "wa.borderSoft",
 
-    "EditorTabs.background": "wa.blush",
+    "EditorGroupsHolder.background": "wa.paper",
+    "EditorTabs.background": "wa.cream",
     "EditorTabs.inactiveBackground": "wa.cream",
     "EditorTabs.underlinedTabBackground": "wa.paper",
     "EditorTabs.borderColor": "wa.borderSoft",
@@ -131,13 +151,10 @@
     "EditorTabs.selectedForeground": "wa.ink",
     "EditorTabs.underlineColor": "wa.brass",
 
-    "ToolWindow.Header.background": "wa.pink",
+    "ToolWindow.Header.background": "wa.sky",
     "ToolWindow.Header.inactiveBackground": "wa.cream",
     "ToolWindow.Header.activeForeground": "wa.ink",
-    "ToolWindow.Header.foreground": "wa.inkSoft",
-
-    "StatusBar.background": "wa.blush",
-    "StatusBar.foreground": "wa.inkSoft"
+    "ToolWindow.Header.foreground": "wa.inkSoft"
   },
 
   "icons": {
